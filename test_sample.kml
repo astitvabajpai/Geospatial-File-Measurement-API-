@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Test Geospatial Data</name>
+
+    <Placemark>
+      <name>Test Plot (Polygon)</name>
+      <description>A simple land plot near Bangalore</description>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              77.5000,12.9000,0
+              77.6000,12.9000,0
+              77.6000,13.0000,0
+              77.5000,13.0000,0
+              77.5000,12.9000,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+    <Placemark>
+      <name>Test Road (LineString)</name>
+      <description>A simple road segment</description>
+      <LineString>
+        <coordinates>
+          77.5000,12.9000,0
+          77.5500,12.9500,0
+          77.6000,13.0000,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Test Marker (Point)</name>
+      <description>A point of interest</description>
+      <Point>
+        <coordinates>77.5500,12.9500,0</coordinates>
+      </Point>
+    </Placemark>
+
+  </Document>
+</kml>
